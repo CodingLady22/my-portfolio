@@ -11,7 +11,9 @@
 #pic img {
     width: 200px;
     height: 175px;
+    object-fit: contain;
 }
+
 #intro h2 {
     font-size: 1.5rem;
 }
