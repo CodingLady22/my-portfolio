@@ -116,7 +116,7 @@ Home
     /* margin: 40px 0; */
 }
 
-.btn {
+/* .btn {
     padding: 10px 35px;
     font-size: 1em;
     background-color: transparent;
@@ -124,15 +124,37 @@ Home
     color: var(--white);
     outline: none;
     transition: .6s ease;
+} */
+
+/* added webkit to normalize everything and nothing is working */
+.btn {
+    padding: 10px 35px;
+    font-size: 1em;
+    background-color: transparent;
+    border: 1px solid --white;
+    color: var(--white);
+    outline: none;
+    -webkit-transition: .6s ease;
+    -o-transition: .6s ease;
+    transition: .6s ease;
 }
 
 .btn:hover {
     cursor: pointer;
     background-color: var(--white);
     color: var(--black);
+    -webkit-box-shadow: 0 0 5px var(--white), 0 0 10px var(--white), 0 0 15px var(--white);
     box-shadow: 0 0 5px var(--white), 0 0 10px var(--white), 0 0 15px var(--white);
     font-weight: bold;
 }
+
+/* .btn:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 0 0 5px var(--white), 0 0 10px var(--white), 0 0 15px var(--white);
+    font-weight: bold;
+} */
 
 /*************************************************************************************************************************************
 About section
@@ -149,6 +171,7 @@ About section
 }
 
 #pic {
+    border: 1px solid red;
     display: flex;
     padding: 30px;
 }
@@ -164,7 +187,8 @@ About section
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding: 30px;
+    padding: 20px;
+    margin: 0 auto;
 }
 
 #intro h2 {
