@@ -13,7 +13,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 /* Navbar */
@@ -58,14 +58,15 @@ li {
 /* .hire-me {
     text-decoration: none;
     color: white;
-}
+} */
 
-.hire-me:hover {
+/* .hire-me:hover {
     background-color: var(--white);
-    color: black; */
-    /* color: var(--black); */
-    /* box-shadow: 0 0 10px var(--white); */
-/* } */
+    color: var(--white); 
+    border: none;
+    color: var(--black);
+    box-shadow: 0 0 10px var(--white);
+}  */
 
 /*************************************************************************************************************************************
 Home
