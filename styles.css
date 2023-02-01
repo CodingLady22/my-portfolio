@@ -171,7 +171,6 @@ About section
 }
 
 #pic {
-    border: 1px solid red;
     display: flex;
     padding: 30px;
 }
