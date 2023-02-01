@@ -26,6 +26,7 @@ About
 #pic img {
     width: 475px;
     height: 300px;
+    object-fit: contain;
 }
 
 #intro h2 {
